@@ -9,6 +9,7 @@ const NavWrapper = styled.div`
   min-width: 10%;
   height: 100%;
   background-color: ${colours.primary};
+  border-right: solid 2px ${colours.secondary};
 `
 
 const Ul = styled.ul`
