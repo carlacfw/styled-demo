@@ -1,28 +1,28 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import media from '../../util/media'
+import media from '../../shared/media'
+import { ResponsiveWrapper } from '../../shared/components'
 
 const FormWapper = styled.form`
   display: flex;
   flex-direction: column;
-  margin: 3em;
+  margin: 0;
+  ${media.desktop`
+    margin: 3em;
+    width: 50%;
+  `};
+`
+
+const FormTitle = styled.h4`
+  color: darkblue;
 `
 
 const Input = styled.input`
   color: black;
-  margin: 0 10px;
+  margin: 10px 0;
   float: left;
-`
-
-const ResponsiveWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 20px;
-  justify-content: space-between;
-  ${media.desktop`
-    flex-direction: row;
-  `};
+  padding: 10px;
+  border: solid pink 2px;
 `
 
 const SubmitInput = styled.input`
@@ -35,10 +35,14 @@ const SubmitInput = styled.input`
   &:disabled {
     background: lightgray;
   }
+  ${media.desktop`
+    align-self: center;
+  `};
 `
 
 const Label = styled.label`
-  margin: 10px;
+  font-weight: bold;
+  margin: 10px 0;
 `
 
 export default class extends Component {
@@ -65,6 +69,7 @@ export default class extends Component {
   render() {
     return (
       <FormWapper onSubmit={this.handleSubmit}>
+        <FormTitle> Person form </FormTitle>
         <ResponsiveWrapper>
           <Label htmlFor="name">Name</Label>
           <Input

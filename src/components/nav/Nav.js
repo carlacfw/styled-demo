@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
+import colours from '../../shared/colour'
 
 const NavWrapper = styled.div`
   display: flex;
   flex-direction: column;
   min-width: 10%;
   height: 100%;
-  background-color: chartreuse;
+  background-color: ${colours.primary};
 `
 
 const Ul = styled.ul`
@@ -18,7 +19,7 @@ const Ul = styled.ul`
 const Li = styled.li`
   margin: 10px 0;
   border: 1px solid grey;
-  background-color: hotpink;
+  background-color: ${colours.secondary};
 `
 
 const StyledLink = styled(NavLink).attrs({
@@ -39,7 +40,7 @@ const StyledLink = styled(NavLink).attrs({
 `
 
 const Button = styled.button`
-  background-color: hotpink;
+  background-color: ${colours.secondary};
   max-width: 40px;
   max-height: 40px;
 `
@@ -74,8 +75,8 @@ class Nav extends Component {
               </StyledLink>
             </Li>
             <Li>
-              <StyledLink to="/response" activeClassName="selected">
-                Response
+              <StyledLink to="/props" activeClassName="selected">
+                Props
               </StyledLink>
             </Li>
           </Ul>
