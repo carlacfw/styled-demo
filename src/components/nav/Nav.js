@@ -41,8 +41,8 @@ const StyledLink = styled(NavLink).attrs({
 
 const Button = styled.button`
   background-color: ${colours.secondary};
-  max-width: 40px;
-  max-height: 40px;
+  width: 26px;
+  height: 26px;
 `
 class Nav extends Component {
   constructor(props) {
