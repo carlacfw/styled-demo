@@ -1,4 +1,4 @@
 export default {
-  primary: 'ligthblue',
+  primary: 'lightblue',
   secondary: 'lightgrey'
 }
