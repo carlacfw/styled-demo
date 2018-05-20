@@ -64,6 +64,9 @@ export default class extends Component {
   handleSubmit(event) {
     event.preventDefault()
     this.setState({ loading: true })
+    window.setTimeout(() => {
+      this.setState({ loading: false })
+    }, 4000)
   }
 
   render() {
