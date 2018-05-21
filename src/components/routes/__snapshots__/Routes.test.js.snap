@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Home page  It renders the routesu correctly 1`] = `
+<styled.div>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+  <Route
+    component={[Function]}
+    path="/form"
+  />
+  <Route
+    component={[Function]}
+    path="/props"
+  />
+</styled.div>
+`;

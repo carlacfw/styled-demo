@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Form  It renders the Form correctly 1`] = `
+<styled.form
+  onSubmit={[Function]}
+>
+  <styled.h4>
+     Person form 
+  </styled.h4>
+  <styled.div>
+    <styled.label
+      htmlFor="name"
+    >
+      Name
+    </styled.label>
+    <styled.input
+      id="name"
+      onChange={[Function]}
+    />
+  </styled.div>
+  <styled.div>
+    <styled.label
+      htmlFor="hair"
+    >
+      Hair colour
+    </styled.label>
+    <styled.input
+      id="hair"
+      onChange={[Function]}
+    />
+  </styled.div>
+  <styled.div>
+    <styled.label
+      htmlFor="eye"
+    >
+      Eye Colour
+    </styled.label>
+    <styled.input
+      id="eye"
+      onChange={[Function]}
+    />
+  </styled.div>
+  <styled.input
+    disabled={false}
+    type="submit"
+  />
+</styled.form>
+`;

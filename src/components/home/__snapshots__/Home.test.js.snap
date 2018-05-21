@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Home page  It renders the home page correctly 1`] = `
+<styled.div>
+  <styled.p>
+    This is a demo app designed to demonstrate a few of the fantastic features of
+     
+    <a
+      href="https://www.styled-components.com/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Styled Components
+    </a>
+     
+    library to WellingtonJS. The goal is to demonstrate the power of writing CSS in JS to solve comon web development problems such as building froms, and using variabled and composition to asist in code reuse.
+  </styled.p>
+  <styled.p>
+    What this is not is a design or CSS masterclass. This was produced quickly to demonstrate library features, production code will need thought out design and more refined styling.
+  </styled.p>
+  <styled.p>
+    I hope that this encourages to try using CSS in JS using librarys like styled components.
+  </styled.p>
+</styled.div>
+`;

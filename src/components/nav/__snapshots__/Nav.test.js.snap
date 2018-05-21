@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Nav  It renders the Navu correctly 1`] = `
+<styled.div>
+  <styled.button
+    onClick={[Function]}
+  >
+    X
+  </styled.button>
+  <styled.ul>
+    <styled.li>
+      <Styled(NavLink)
+        activeClassName="selected"
+        exact={true}
+        to="/"
+      >
+        Home
+      </Styled(NavLink)>
+    </styled.li>
+    <styled.li>
+      <Styled(NavLink)
+        activeClassName="selected"
+        to="/form"
+      >
+        Form
+      </Styled(NavLink)>
+    </styled.li>
+    <styled.li>
+      <Styled(NavLink)
+        activeClassName="selected"
+        to="/props"
+      >
+        Props
+      </Styled(NavLink)>
+    </styled.li>
+  </styled.ul>
+</styled.div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Props  It renders the Props correctly 1`] = `
+<styled.div>
+  <styled.label>
+    Passing props into styles
+  </styled.label>
+  <styled.div>
+    <styled.button
+      background="yellow"
+      color="black"
+    >
+      Yellow
+    </styled.button>
+    <styled.button
+      background="blue"
+      color="white"
+    >
+      Blue
+    </styled.button>
+    <styled.button
+      background="red"
+      color="blue"
+    >
+      Red
+    </styled.button>
+  </styled.div>
+  <styled.label>
+    Dynamic response to variables
+  </styled.label>
+  <styled.div>
+    <styled.button
+      bigger={true}
+      bolder={true}
+    >
+      Exact
+    </styled.button>
+    <styled.button
+      bigger={false}
+      bolder={false}
+    >
+      Inexact
+    </styled.button>
+  </styled.div>
+  <styled.label>
+    Extending Styled Components
+  </styled.label>
+  <styled.div>
+    <styled.button
+      background="red"
+      color="blue"
+    >
+      Red
+    </styled.button>
+    <styled.button
+      bigger={true}
+      bolder={true}
+    >
+      Exact
+    </styled.button>
+  </styled.div>
+</styled.div>
+`;

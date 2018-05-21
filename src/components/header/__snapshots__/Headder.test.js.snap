@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Header  It renders the headder correctly 1`] = `
+<styled.div>
+  <styled.h2>
+    Styled Components Demo
+  </styled.h2>
+</styled.div>
+`;
